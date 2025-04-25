@@ -1,4 +1,3 @@
-
 import React from "react";
 import { 
   Sidebar, 
@@ -10,7 +9,7 @@ import {
   SidebarMenuButton, 
   SidebarMenuItem 
 } from "@/components/ui/sidebar";
-import { Home, Users, FileInvoice, Settings, LogOut } from "lucide-react";
+import { Home, Users, File, Settings, LogOut } from "lucide-react";
 import { Link } from "react-router-dom";
 
 // Menu items
@@ -28,7 +27,7 @@ const mainItems = [
   {
     title: "Invoices",
     path: "/invoices",
-    icon: FileInvoice,
+    icon: File,
   },
 ];
 

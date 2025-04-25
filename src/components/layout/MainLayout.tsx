@@ -15,7 +15,7 @@ export const MainLayout = ({ children }: MainLayoutProps) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(!isMobile);
   
   return (
-    <SidebarProvider defaultCollapsed={isMobile}>
+    <SidebarProvider>
       <div className="flex min-h-screen w-full">
         <AppSidebar />
         <div className="flex flex-col flex-1">

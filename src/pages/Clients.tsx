@@ -20,7 +20,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Link } from "react-router-dom";
-import { Edit, MoreHorizontal, Plus, Search, TrashX, User } from "lucide-react";
+import { Edit, MoreHorizontal, Plus, Search, Trash, User } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 import {
   AlertDialog,
@@ -193,7 +193,7 @@ const Clients = () => {
                               className="flex items-center text-red-500 focus:bg-red-50 focus:text-red-500"
                               onClick={() => confirmDeleteClient(client.id)}
                             >
-                              <TrashX className="mr-2 h-4 w-4" />
+                              <Trash className="mr-2 h-4 w-4" />
                               Delete Client
                             </DropdownMenuItem>
                           </DropdownMenuContent>

@@ -12,7 +12,7 @@ import {
   Tooltip, 
   ResponsiveContainer 
 } from "recharts";
-import { ArrowUpRight, FileInvoice, Plus, User, Users } from "lucide-react";
+import { ArrowUpRight, File, Plus, User, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const data = [
@@ -36,7 +36,7 @@ const Dashboard = () => {
           <div className="flex space-x-2 mt-4 sm:mt-0">
             <Button asChild>
               <Link to="/invoices/create">
-                <FileInvoice className="mr-2 h-4 w-4" />
+                <File className="mr-2 h-4 w-4" />
                 New Invoice
               </Link>
             </Button>
